@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+.header {
+  background-color: rgb(0, 155, 78);
+}
+.logo img {
+  max-width: 132px;
+}
+
+.nav-icons {
+  margin-left: 20px;
+}
+
+main {
+  background-color: rgb(0, 0, 0);
+  padding-top: 90px;
+}
+main img {
+  max-width: 300px;
+}
+
+.drops {
+  max-width: 60%;
+}
+
+main h1 {
+  font-size: 65px;
+  font-family: "Lilita One", cursive;
+}
+
+main .photo img {
+  max-width: 100%;
+}
+
+.learn-more-btn {
+  background-color: rgb(255, 209, 0);
+  border: 1px solid rgb(255, 209, 0);
+  font-family: "Lilita One", cursive;
+  width: 170px;
+  height: 44px;
+  margin-top: 80px;
+}
+
+.shop-now-btn {
+  max-width: 150px;
+  height: 32px;
+  background-color: rgb(255, 209, 0);
+  border: 1px solid rgb(255, 209, 0);
+}
+
+.new-drip-txt {
+  font-family: "Lilita One", cursive;
+}
+.new-drip-txt h1 {
+  font-size: 55px;
+}
+
+section img {
+  max-width: 80%;
+}
+
+.lemon-image img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: rgb(0, 155, 78);
+}
+
+.footer-img {
+  margin: 50px 0 0 90px;
+  width: 140px;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+.img-2 {
+  display: none;
+}
+
+.green {
+  color: rgb(0, 155, 78);
+  font-family: "Lilita One", cursive;
+}
+.black:hover {
+  color: rgb(0, 0, 0);
+}
+.zoom:hover {
+  transform: scale(1.5);
+}
+#hide {
+  display: none;
+}
+
+/* XL Devices */
+
+@media (min-width: 1200px) {
+  .celebrating-txt {
+    font-size: 72px;
+  }
+  .video {
+    width: 470px;
+    height: 268px;
+    margin-left: 100px;
+  }
+}
+
+/* XL Devices */
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .celebrating-txt {
+    font-size: 72px;
+  }
+  .video {
+    width: 100%;
+    height: 500px;
+  }
+}
+/* Large Devices */
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .celebrating-txt {
+    font-size: 72px;
+  }
+  .img-1 {
+    display: none;
+  }
+  .img-2 {
+    display: flex;
+  }
+  .video {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+/* Large Devices */
+
+/* Medium Devices */
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .celebrating-txt {
+    font-size: 42px;
+  }
+  .img-1 {
+    display: none;
+  }
+  .img-2 {
+    display: flex;
+  }
+  .video {
+    width: 100%;
+    height: 400px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Medium Devices */
+
+/* Small Devices */
+
+@media (max-width: 576px) {
+  .celebrating-txt {
+    font-size: 42px;
+  }
+  .img-1 {
+    display: none;
+  }
+  .img-2 {
+    display: flex;
+  }
+
+  main img {
+    max-width: 100%;
+  }
+
+  .video {
+    max-width: 100%;
+    margin-left: 0px;
+    height: 300px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Small Devices */
+
+/* Extra Small Devices */
+@media (max-width: 300px) {
+  .celebrating-txt {
+    font-size: 100%;
+  }
+
+  main img {
+    max-width: 100%;
+  }
+
+  .video {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Extra Small Devices */
